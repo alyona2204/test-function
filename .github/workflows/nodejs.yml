@@ -36,5 +36,5 @@ jobs:
 
       # 5. Запуск тестов с покрытием
       - name: Run tests
-        run: npm test -- --coverage
+        run: npm run coverage
 
