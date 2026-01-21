@@ -32,7 +32,8 @@ jobs:
 
       # 4. Проверка ESLint
       - name: Run ESLint
-        run: npx eslint src __tests__
+        run: npx eslint .
+
 
       # 5. Запуск тестов с покрытием
       - name: Run tests
