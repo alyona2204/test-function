@@ -1,4 +1,4 @@
-import healthStatus from '../src/healthStatus';
+import healthStatus from '../healthStatus';
 
 describe('healthStatus', () => {
   test('returns healthy if health > 50', () => {
